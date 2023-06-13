@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
   declarations: [
     AppComponent
   ],
+  // each time there is a new componet you need to put in in "declarations"
   imports: [
     BrowserModule
   ],
