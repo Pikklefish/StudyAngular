@@ -12,13 +12,13 @@ label{
     background-color:rgb(255, 0, 0) ;
   }
   
-  body{ background-color: darkslategray;
+  body{ background-color: rgb(255, 255, 255);
     font-family: 'Lexend Deca', sans-serif;
     width: 800px; 
     height: 100%;
     margin: auto;
     color: #2E475D;
   }
-  h1 {color: white;}
+  h1 {color: rgb(0, 0, 0);}
   h4 {color: #a5e2e6;}
   
