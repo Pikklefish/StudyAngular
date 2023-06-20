@@ -1,4 +1,12 @@
-<h1>Displaying Single Customer.</h1>
-<hr>
-First Name:{{Customers[0].FName}}<br>
-Last Name: {{Customers[0].LName}}
+<h1> Customer List</h1>
+<table border="1">
+    <tr>
+        <th>FName</th><th>LName</th> 
+        <!-- th = table head -->
+    </tr>
+    <!-- tr = table row -->
+    <tr *ngFor = "let item of Customers">
+        <td>{{item.FName}}</td><td>{{item.LName}}</td>
+    </tr>
+
+</table>

@@ -4,4 +4,7 @@ export class Customer{
     constructor(public FName:string, public LName:string){
 
     }
+    p(FName:string, LName:string){
+
+    }
 }

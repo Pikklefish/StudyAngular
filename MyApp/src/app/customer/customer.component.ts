@@ -12,6 +12,7 @@ export class CustomerComponent{
         this.Customers.push(new Customer("Sukesh","Marla"));
         this.Customers.push(new Customer("Just","Compile"));
         this.Customers.push(new Customer("Ram","Lakhan"));
+        console.log(this.Customers);
     }
 
 }
