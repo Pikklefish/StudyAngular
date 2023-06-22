@@ -15,4 +15,8 @@ export class CustomerComponent{
         console.log(this.Customers);
     }
 
+    Save(){
+        this.Customers.push(new Customer("Karan", "Arjun"));
+
+    }
 }
